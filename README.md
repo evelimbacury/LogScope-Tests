@@ -31,14 +31,23 @@ Ordem de prioridade:
 | 8  | Erro     | Ao tentar gerar um gráfico em "Gráfico 5G" sem ter selecionado um arquivo, o programa não trata corretamente o erro, resultando em uma falha. | Simples              | 2          | 19/02/2025    |
 | 9  | Erro     | Ao tentar gerar um gráfico em "Gráfico TX" sem ter selecionado um arquivo, o programa não trata corretamente o erro, resultando em uma falha. | Simples              | 2          | 19/02/2025    |
 
-### Testes sem Filtro Selecionado
+## Com Arquivo Selecionado
+### Testes em Gráficos sem Filtro Selecionado
 | Id | Tipo      | Descrição  | Grau de Severidade | Prioridade | Data de Report |
 |----|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------|---------------|   
 | 10  | Erro     | Os gráficos plotam mesmo sem nenhum filtro selecionado. | Estético              | 1          | 19/02/2025    |
+
+
+
+### Testes em Gráficos com Filtro Selecionado
+| Id | Tipo      | Descrição  | Grau de Severidade | Prioridade | Data de Report |
+|----|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------|---------------|   
 | 11  | Erro     | Ao plotar os gráficos que não possuem dados correspondentes ao filtro selecionado, o programa deveria plotar uma mensagem de aviso. | Estético              | 1          | 19/02/2025    |
+
+
 ---
 
-#### Log de Erros  
+### Log de Erros  
 
 Erro gerado no Teste 6
 ```python
