@@ -21,6 +21,8 @@ Ordem de prioridade e grau de severidade:
 | 3  | Sugestão | Para uma melhor experiência, o sistema poderia carregar as guias "base pura" e "base tratada" automaticamente, sem a necessidade do usuário pressionar o botão "Visualizar". | Sem prioridade | 0          | 19/02/2025    |
 | 4  | Sugestão | O sistema poderia criar uma pasta própria para os arquivos de csv gerados. | Estético              | 1          | 19/02/2025    |
 
+## Teste de Sistema 
+
 ## Testes sem Arquivo Selecionado  
 
 | Id | Tipo      | Descrição                                                                                                                                                        | Grau de Severidade | Prioridade | Data de Report |
@@ -42,7 +44,7 @@ Ordem de prioridade e grau de severidade:
 | Id | Tipo      | Descrição  | Grau de Severidade | Prioridade | Data de Report |
 |----|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------|---------------|   
 | 11  | Erro     | Os gráficos plotam mesmo sem nenhum filtro selecionado. | Estético              | 1          | 19/02/2025    |
-| 12  | Sugestão     | Ao gerar um gráfico em uma guia, os gráficos já gerados são apagados. Talvez seja interessante manter os gráficos já gerados para comparação. | Estético              | 1          | 19/02/2025    |
+| 12  | Sugestão     | Ao gerar um gráfico em uma guia, os gráficos já gerados são apagados. É interessante manter os gráficos já gerados para comparação. | Simples              | 2          | 19/02/2025    |
 
 
 
