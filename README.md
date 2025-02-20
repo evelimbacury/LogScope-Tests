@@ -32,11 +32,17 @@ Ordem de prioridade e grau de severidade:
 | 9  | Erro     | Ao tentar gerar um gráfico em "Gráfico TX" sem ter selecionado um arquivo, o programa não trata corretamente o erro, resultando em uma falha. | Simples              | 2          | 19/02/2025    |
 
 ## Testes com Arquivo Selecionado
+
+### Testes em tabelas de "Base Pura" e "Base Tratada"  
+| Id | Tipo      | Descrição  | Grau de Severidade | Prioridade | Data de Report |
+|----|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------|---------------|   
+| 10  | Sugestão     | Nas tabelas das bases, seria interessante ter uma coluna indicando o número da linha de cada registro. | Sem prioridade               | 0          | 19/02/2025    |
+
 ### Testes em Gráficos sem Filtro Selecionado
 | Id | Tipo      | Descrição  | Grau de Severidade | Prioridade | Data de Report |
 |----|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------|---------------|   
-| 10  | Erro     | Os gráficos plotam mesmo sem nenhum filtro selecionado. | Estético              | 1          | 19/02/2025    |
-| 11  | Sugestão     | Ao gerar um gráfico em uma guia, os gráficos já gerados são apagados. Talvez seja interessante manter os gráficos já gerados para comparação. | Estético              | 1          | 19/02/2025    |
+| 11  | Erro     | Os gráficos plotam mesmo sem nenhum filtro selecionado. | Estético              | 1          | 19/02/2025    |
+| 12  | Sugestão     | Ao gerar um gráfico em uma guia, os gráficos já gerados são apagados. Talvez seja interessante manter os gráficos já gerados para comparação. | Estético              | 1          | 19/02/2025    |
 
 
 
@@ -127,3 +133,6 @@ Traceback (most recent call last):
 NameError: name 'df_combinado' is not defined
 
 ```
+
+Erro gerado no Teste 11
+![Erro](/img/teste-11.png)
