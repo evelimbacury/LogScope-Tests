@@ -1,0 +1,14 @@
+# Ambiente virtual
+.venv/
+
+# Bancos de dados de teste
+Banco-Teste/
+
+# Arquivos temporários
+arquivo_combinado.csv
+dados_filtrados_p1.csv
+dados_filtrados_p2.csv
+
+# Requisitos
+requirements.txt
+
