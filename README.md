@@ -1,7 +1,7 @@
 # Relatório de Testes - LogScope 1.0
 
 ## Tabela de Bugs e Sugestões
-Ordem de prioridade: 
+Ordem de prioridade e grau de severidade: 
     
     0 - Sem prioridade
 
@@ -13,7 +13,7 @@ Ordem de prioridade:
 
     4 - Catastrófico
 
-### Teste de Interface
+## Teste de Interface
 | Id | Tipo      | Descrição                                                                                                                                                        | Grau de Severidade | Prioridade | Data de Report |
 |----|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------|---------------|
 | 1  | Sugestão | As guias "base pura" e a "base tratada" não estão no mesmo formato de organização de tabela. A base tratada possui as colunas "above_20dBm", "15dBm_to_20dBm", "8dBm_to_15dBm", "0dBm_to_8dBm", "less_than_0dBm", enquanto a base de dados não segue esse padrão. | Sem prioridade           | 0          | 19/02/2025    |
@@ -36,13 +36,14 @@ Ordem de prioridade:
 | Id | Tipo      | Descrição  | Grau de Severidade | Prioridade | Data de Report |
 |----|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------|---------------|   
 | 10  | Erro     | Os gráficos plotam mesmo sem nenhum filtro selecionado. | Estético              | 1          | 19/02/2025    |
+| 11  | Sugestão     | Ao gerar um gráfico em uma guia, os gráficos já gerados são apagados. Talvez seja interessante manter os gráficos já gerados para comparação. | Estético              | 1          | 19/02/2025    |
 
 
 
 ### Testes em Gráficos com Filtro Selecionado
 | Id | Tipo      | Descrição  | Grau de Severidade | Prioridade | Data de Report |
 |----|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------|---------------|   
-| 11  | Erro     | Ao plotar os gráficos que não possuem dados correspondentes ao filtro selecionado, o programa deveria plotar uma mensagem de aviso. | Estético              | 1          | 19/02/2025    |
+| 12  | Sugestão     | Ao plotar os gráficos que não possuem dados correspondentes ao filtro selecionado, o programa deveria plotar uma mensagem de aviso. | Estético              | 1          | 19/02/2025    |
 
 
 ---
