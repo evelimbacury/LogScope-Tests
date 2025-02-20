@@ -17,21 +17,21 @@ Ordem de prioridade:
 | Id | Tipo      | Descrição                                                                                                                                                        | Grau de Severidade | Prioridade | Data de Report |
 |----|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------|---------------|
 | 1  | Sugestão | As guias "base pura" e a "base tratada" não estão no mesmo formato de organização de tabela. A base tratada possui as colunas "above_20dBm", "15dBm_to_20dBm", "8dBm_to_15dBm", "0dBm_to_8dBm", "less_than_0dBm", enquanto a base de dados não segue esse padrão. | Sem prioridade           | 0          | 19/02/2025    |
-| 2  | Sugestão | Na guia "base pura", o excesso de tratamento de erros ao clicar em **"Visualizar"** antes de selecionar um arquivo. O tratamento deve parar assim que for identificado que não há arquivo selecionado. | Estético              | 1          | 19/02/2025    |
-| 3  | Sugestão | O input "entry_arquivo" deveria estar desabilitado | Estético              | 1          | 19/02/2025    |
-| 4  | Sugestão | Para uma melhor experiência, o sistema poderia carregar as guias "base pura" e "base tratada" automaticamente, sem a necessidade do usuário pressionar o botão "Visualizar". | Sem prioridade | 0          | 19/02/2025    |
-| 5  | Sugestão | O sistema poderia criar uma pasta própria para os arquivos de csv gerados. | Estético              | 1          | 19/02/2025    |
+| 2  | Sugestão | O input "entry_arquivo" deveria estar desabilitado | Estético              | 1          | 19/02/2025    |
+| 3  | Sugestão | Para uma melhor experiência, o sistema poderia carregar as guias "base pura" e "base tratada" automaticamente, sem a necessidade do usuário pressionar o botão "Visualizar". | Sem prioridade | 0          | 19/02/2025    |
+| 4  | Sugestão | O sistema poderia criar uma pasta própria para os arquivos de csv gerados. | Estético              | 1          | 19/02/2025    |
 
-### Testes sem Arquivo Selecionado  
+## Testes sem Arquivo Selecionado  
 
 | Id | Tipo      | Descrição                                                                                                                                                        | Grau de Severidade | Prioridade | Data de Report |
-|----|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------|---------------|   
+|----|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------|---------------| 
+| 5  | Sugestão | Na guia "base pura", o excesso de tratamento de erros ao clicar em **"Visualizar"** antes de selecionar um arquivo. O tratamento deve parar assim que for identificado que não há arquivo selecionado. | Estético              | 1          | 19/02/2025    |  
 | 6  | Erro     | Na guia "base tratada", o sistema não impede a execução de tratamentos de erro desnecessários ao clicar em **"Visualizar"** sem arquivo selecionado. Em vez de evitar o tratamento, ele tenta processá-lo de qualquer forma. | Simples              | 2          | 19/02/2025    |
 | 7  | Erro     | Ao tentar gerar um gráfico em "Gráfico 4G" sem ter selecionado um arquivo, o programa não trata corretamente o erro, resultando em uma falha. | Simples              | 2          | 19/02/2025    |
 | 8  | Erro     | Ao tentar gerar um gráfico em "Gráfico 5G" sem ter selecionado um arquivo, o programa não trata corretamente o erro, resultando em uma falha. | Simples              | 2          | 19/02/2025    |
 | 9  | Erro     | Ao tentar gerar um gráfico em "Gráfico TX" sem ter selecionado um arquivo, o programa não trata corretamente o erro, resultando em uma falha. | Simples              | 2          | 19/02/2025    |
 
-## Com Arquivo Selecionado
+## Testes com Arquivo Selecionado
 ### Testes em Gráficos sem Filtro Selecionado
 | Id | Tipo      | Descrição  | Grau de Severidade | Prioridade | Data de Report |
 |----|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------|---------------|   
